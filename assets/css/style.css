@@ -69,12 +69,12 @@ p{
 }
 .shape-2{
     top: 3.5%;
-    left:.7%;
+    left:50%;
     animation: move2 2s linear alternate infinite ;
 }
 .shape-3{
     top: 67%;
-    left:.50%;
+    left:.7%;
     z-index: 9;
     animation: move3 2s linear alternate infinite ;
 }
@@ -107,7 +107,7 @@ p{
 
 @keyframes move2 {
     0%{}
-    100%{left: 50%;}
+    100%{left:53%;}
 }
 
 @keyframes move3 {
@@ -117,5 +117,5 @@ p{
 
 @keyframes move4 {
     0%{}
-    100%{left: 50%;}
+    100%{top: 80%;}
 }
